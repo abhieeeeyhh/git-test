@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fiat 500 — Car Details | VELOCE</title>
+<meta name="description" content="Rent the Fiat 500 with VELOCE. 4-seat city car, manual, insurance included, unlimited miles, delivered to your door. From $49/day.">
+<meta name="theme-color" content="#14151A">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2314151A'/%3E%3Cpath d='M17 20h9l6 18 6-18h9L36 48h-8L17 20Z' fill='%23C09A5E'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="car.css">
+<script src="../app.js" defer></script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to the car details</a>
+
+<!-- Icon sprite -->
+<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7.5v5.5M12 16.5v.1"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4.5 6v6c0 5 3.4 7.8 7.5 9 4.1-1.2 7.5-4 7.5-9V6L12 3Z"/><path d="m8.8 12 2.2 2.2 4.2-4.4"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+  <symbol id="i-road" viewBox="0 0 24 24"><path d="M4 21 8 3M20 21 16 3M12 4v3M12 11v3M12 18v3"/></symbol>
+  <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="8" r="4.5"/><path d="m11.2 11.2 8.3 8.3M16 16l2-2M18.5 18.5l2-2"/></symbol>
+  <symbol id="i-car" viewBox="0 0 24 24"><path d="M5 16.5v-3l2-5h10l2 5v3"/><path d="M3 16.5h18M6 16.5v2.5M18 16.5v2.5"/><circle cx="7.5" cy="16.5" r="1.5"/><circle cx="16.5" cy="16.5" r="1.5"/></symbol>
+  <symbol id="i-truck" viewBox="0 0 24 24"><path d="M3 6h10v10H3zM13 9h4l3 3v4h-7"/><circle cx="7" cy="18" r="1.6"/><circle cx="17" cy="18" r="1.6"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.5 3h3l1.5 4.5-2 1.5a13 13 0 0 0 6 6l1.5-2L21 14.5v3A3.5 3.5 0 0 1 17.5 21 15.5 15.5 0 0 1 3 6.5 3.5 3.5 0 0 1 6.5 3Z"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".8" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M4 4l16 16M20 4 4 20"/></symbol>
+  <symbol id="i-linkedin" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="4"/><path d="M8 10.5V17M8 7.6v.1M12 17v-3.6a2.4 2.4 0 0 1 4.8 0V17"/></symbol>
+</svg>
+
+<!-- Header -->
+<header class="site-header is-scrolled" id="site-header">
+  <div class="container nav">
+    <a class="brand" href="../index.html#top" aria-label="VELOCE home">veloce<span class="dot">.</span></a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="../index.html#fleet">Fleet</a>
+      <a href="../index.html#how">How it works</a>
+      <a href="../index.html#faq">Support</a>
+      <a href="../index.html#contact">Locations</a>
+    </nav>
+    <div class="nav-right">
+      <a class="nav-phone" href="tel:+18005550199">
+        <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+        +1 (800) 555-0199
+      </a>
+      <a class="btn btn--nav" href="../booking.html">Book now</a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile drawer -->
+<div class="drawer" id="mobile-menu" aria-hidden="true">
+  <div class="drawer-top">
+    <a class="brand" href="../index.html#top">veloce<span class="dot">.</span></a>
+    <button class="drawer-close" type="button" aria-label="Close menu">
+      <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+    </button>
+  </div>
+  <nav class="drawer-links" aria-label="Mobile navigation">
+    <a href="../index.html#fleet">Fleet</a>
+    <a href="../index.html#how">How it works</a>
+    <a href="../index.html#faq">Support</a>
+    <a href="../index.html#contact">Locations</a>
+  </nav>
+  <div class="drawer-foot">
+    <a class="btn btn--accent" href="../booking.html">Book a car <svg class="icon arr" aria-hidden="true"><use href="#i-arrow-up"/></svg></a>
+    <p>Concierge <a class="plain" href="tel:+18005550199">+1 (800) 555-0199</a><br>Every day, around the clock.</p>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- Car hero -->
+  <section class="cd-hero" aria-labelledby="car-title">
+    <div class="container">
+      <nav class="cd-breadcrumb" aria-label="Breadcrumb">
+        <a href="../index.html#fleet">Fleet</a>
+        <span aria-hidden="true">/</span>
+        <span aria-current="page">Fiat 500</span>
+      </nav>
+
+      <div class="cd-hero-grid">
+        <div>
+          <span class="eyebrow">City car · City</span>
+          <h1 class="cd-title" id="car-title">Fiat 500</h1>
+          <p class="cd-sub">Compact, nimble city car that’s easy to park and pure fun to drive — delivered ready to drive.</p>
+
+          <div class="cd-meta">
+            <span class="cd-rating"><span class="star" aria-hidden="true">★</span> 4.6 <span class="sr-only">out of 5</span></span>
+            <span class="cd-chip">4 seats</span>
+            <span class="cd-chip">Manual</span>
+            <span class="cd-chip">Petrol</span>
+            <span class="cd-chip">Available</span>
+          </div>
+
+          <div class="cd-price"><b>$49</b><span>/ day · all-in, insurance included</span></div>
+
+          <div class="cd-actions">
+            <a class="btn btn--accent" href="../booking.html?car=Fiat%20500">Book this car <svg class="icon arr" aria-hidden="true"><use href="#i-arrow-up"/></svg></a>
+            <a class="btn btn--surface" href="../index.html#fleet">Back to fleet</a>
+          </div>
+        </div>
+
+        <div class="cd-media">
+          <span class="cd-badge">Available</span>
+          <img src="../assets/car-fiat.jpg" alt="Light blue Fiat 500 parked on a cobbled city street" width="900" height="660">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specs -->
+  <section class="cd-section" aria-labelledby="specs-title">
+    <div class="container">
+      <div class="cd-head">
+        <span class="eyebrow">At a glance</span>
+        <h2 id="specs-title">The <em>specs.</em></h2>
+      </div>
+      <dl class="cd-specs">
+        <div class="cd-spec"><dt>Category</dt><dd>City car</dd></div>
+        <div class="cd-spec"><dt>Seats</dt><dd>4</dd></div>
+        <div class="cd-spec"><dt>Transmission</dt><dd>Manual</dd></div>
+        <div class="cd-spec"><dt>Fuel</dt><dd>Petrol</dd></div>
+        <div class="cd-spec"><dt>Price</dt><dd>$49 / day</dd></div>
+        <div class="cd-spec"><dt>Mileage</dt><dd>Unlimited</dd></div>
+        <div class="cd-spec"><dt>Min. age</dt><dd>23</dd></div>
+        <div class="cd-spec"><dt>Rating</dt><dd>4.6 ★</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- What's included -->
+  <section class="cd-section" aria-labelledby="included-title">
+    <div class="container">
+      <div class="cd-head">
+        <span class="eyebrow">Every rental</span>
+        <h2 id="included-title">Everything <em>included.</em></h2>
+        <p>No upsells at the door. The price you see is the price you pay.</p>
+      </div>
+      <div class="cd-grid-2">
+        <div class="cd-card">
+          <h3><svg aria-hidden="true"><use href="#i-shield"/></svg> Covered before you roll</h3>
+          <p>Comprehensive protection is standard on every booking — nothing to add at checkout.</p>
+          <ul class="cd-checklist" style="margin-top:16px">
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Collision damage waiver</li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Theft protection</li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Third-party liability</li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> 24/7 roadside assistance</li>
+          </ul>
+        </div>
+        <div class="cd-card">
+          <h3><svg aria-hidden="true"><use href="#i-truck"/></svg> Door-to-door delivery</h3>
+          <p>Home, hotel, office or arrivals. A real person meets you with the keys and walks you around the car.</p>
+          <ul class="cd-checklist" style="margin-top:16px">
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> First 25 km of delivery on us</li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Handover in about four minutes</li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Return it where you picked it up</li>
+          </ul>
+        </div>
+        <div class="cd-card">
+          <h3><svg aria-hidden="true"><use href="#i-road"/></svg> Unlimited miles</h3>
+          <p>Go the long way. No mileage caps, no per-mile arithmetic on the way home.</p>
+        </div>
+        <div class="cd-card">
+          <h3><svg aria-hidden="true"><use href="#i-clock"/></svg> 24/7 concierge</h3>
+          <p>One number, any hour. A real person answers in under 30 seconds.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rental details -->
+  <section class="cd-section" aria-labelledby="rental-title">
+    <div class="container">
+      <div class="cd-rental">
+        <div class="cd-head" style="margin-bottom:0">
+          <span class="eyebrow">Good to know</span>
+          <h2 id="rental-title">Before you <em>book.</em></h2>
+        </div>
+        <ul class="cd-rental-list">
+          <li>A valid driver's license held for at least two years.</li>
+          <li>A credit card in the driver's name for incidentals.</li>
+          <li>Minimum age 23. Everything is verified online before pick-up.</li>
+          <li>Free cancellation up to 24 hours before pick-up for a full refund.</li>
+          <li>Inside 24 hours, one day's rental is retained.</li>
+          <li>Delivered across 40+ cities — choose your exact address at checkout.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Related cars -->
+  <section class="cd-section" aria-labelledby="related-title">
+    <div class="container">
+      <div class="cd-head">
+        <span class="eyebrow">Keep looking</span>
+        <h2 id="related-title">You might also <em>like.</em></h2>
+      </div>
+      <div class="cd-related">
+        <a class="cd-related-card" href="lamborghini-huracan.html">
+          <div class="cd-related-media"><img src="../assets/car-lambo.jpg" alt="Yellow Lamborghini Huracán parked on a city plaza" width="900" height="660" loading="lazy"></div>
+          <div class="cd-related-body"><h3>Lamborghini Huracán</h3><p>Supercar · 2 seats · Automatic</p><div class="cd-related-price">$549 <span>/ day</span></div></div>
+        </a>
+        <a class="cd-related-card" href="porsche-panamera.html">
+          <div class="cd-related-media"><img src="../assets/hero-panamera.jpg" alt="Porsche Panamera executive sedan" width="2000" height="1333" loading="lazy"></div>
+          <div class="cd-related-body"><h3>Porsche Panamera</h3><p>Executive sedan · 4 seats · Automatic</p><div class="cd-related-price">$189 <span>/ day</span></div></div>
+        </a>
+        <a class="cd-related-card" href="../index.html#fleet">
+          <div class="cd-related-media"><img src="../assets/lifestyle-drive.jpg" alt="A driver's hand on the wheel with the city lights ahead" width="1200" height="900" loading="lazy"></div>
+          <div class="cd-related-body"><h3>Browse the full fleet</h3><p>8 cars · filter by category</p><div class="cd-related-price">From $49 <span>/ day</span></div></div>
+        </a>
+      </div>
+      <a class="cd-back" href="../index.html#fleet"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg> Back to the fleet</a>
+      <p class="cd-demo">Fictional demo listing — rates, availability and details are illustrative.</p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cd-cta" aria-labelledby="cd-cta-title">
+    <div>
+      <h2 id="cd-cta-title">The keys are <em>waiting.</em></h2>
+      <p>Book in under two minutes. We'll deliver the car, walk you around it, and hand you the keys — the rest is yours.</p>
+      <div class="cd-actions">
+        <a class="btn btn--accent" href="../booking.html?car=Fiat%20500">Book your car <svg class="icon arr" aria-hidden="true"><use href="#i-arrow-up"/></svg></a>
+        <a class="btn btn--ghost" href="tel:+18005550199"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg> +1 (800) 555-0199</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="site-footer" id="contact">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="brand" href="../index.html#top" aria-label="VELOCE home">veloce<span class="dot">.</span></a>
+        <p>Premium cars, delivered to your door. Los Angeles · San Francisco · Miami · New York · Austin · Seattle — and 34 more cities.</p>
+        <form class="newsletter" id="newsletter-form">
+          <label class="sr-only" for="newsletter-email">Email address</label>
+          <input type="email" id="newsletter-email" name="email" placeholder="Email for open-road offers" required>
+          <button type="submit">Join <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </form>
+        <p class="newsletter-note">One email a month. Unsubscribe anytime.</p>
+      </div>
+
+      <div class="footer-col">
+        <h3>Explore</h3>
+        <nav class="footer-links" aria-label="Explore">
+          <a href="../index.html#fleet">The fleet</a>
+          <a href="../index.html#how">How it works</a>
+          <a href="../index.html#faq">FAQs</a>
+          <a href="../booking.html">Book a car</a>
+        </nav>
+      </div>
+
+      <div class="footer-col">
+        <h3>Company</h3>
+        <nav class="footer-links" aria-label="Company">
+          <a href="../index.html#top">About VELOCE</a>
+          <a href="../index.html#contact">Locations</a>
+          <a href="mailto:careers@veloce.rent">Careers</a>
+          <a href="mailto:press@veloce.rent">Press</a>
+        </nav>
+      </div>
+
+      <div class="footer-col">
+        <h3>Reach us</h3>
+        <nav class="footer-links" aria-label="Contact">
+          <a href="tel:+18005550199">+1 (800) 555-0199</a>
+          <a href="mailto:hello@veloce.rent">hello@veloce.rent</a>
+          <a href="mailto:concierge@veloce.rent">Concierge</a>
+          <a href="../index.html#support">Support center</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> VELOCE Mobility Ltd. All rights reserved.</span>
+      <div class="footer-legal">
+        <a href="../index.html#faq">Privacy</a>
+        <a href="../index.html#faq">Terms</a>
+        <a href="../index.html#faq">Insurance</a>
+      </div>
+      <div class="socials">
+        <a href="../index.html#top" aria-label="VELOCE on Instagram"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a>
+        <a href="../index.html#top" aria-label="VELOCE on X"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></a>
+        <a href="../index.html#top" aria-label="VELOCE on LinkedIn"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg></a>
+      </div>
+    </div>
+
+    <div class="footer-word" aria-hidden="true">veloce<span class="dot">.</span></div>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite">
+  <svg id="toast-icon" aria-hidden="true"><use href="#i-check"/></svg>
+  <span id="toast-text"></span>
+</div>
+
+</body>
+</html>
