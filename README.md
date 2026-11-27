@@ -23,6 +23,7 @@ Then visit `http://localhost:4173`.
 - **Car detail pages** — one page per car in `cars/`; the whole fleet card links to it
 - **Standalone booking page** (`booking.html`) with validation → **success page** (`success.html`)
 - **Careers page** (`careers.html`) with a job board — open roles with filtering by department
+- **About page** (`about.html`) — story, stats, four promises and closing CTA
 - **Accessibility**: keyboard focus states, skip link, semantic headings, labelled forms, live toast announcements and reduced-motion support
 - **Lighthouse**: 100 Accessibility / 100 Best Practices / 100 SEO
 
@@ -37,6 +38,7 @@ booking.html    Standalone booking page + booking.css
 booking.js      Booking validation → redirects to success.html
 success.html    Booking confirmation page + success.js
 careers.html    Careers page + careers.css + careers.js (job listing + department filter)
+about.html      About page + about.css
 assets/         Optimised local images
 ```
 
